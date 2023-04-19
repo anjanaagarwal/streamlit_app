@@ -19,7 +19,7 @@ def main():
     if st.button('Find the greatest'):
 
         answer = find_greatest(a, b, c)
-        st.success("The largest number is" + answer)
+        st.success("The largest number is {answer}")
 
 
 if __name__ == "__main__":
